@@ -247,7 +247,8 @@ body{
 }
 .portfolio {
 	background-color: #f3f3f3;
-	height: 1595px;
+	min-height: 1595px;
+	max-height: 100%;
 	padding: 0;
 }
 .portfolio__title {
