@@ -247,7 +247,8 @@ body{
 }
 .portfolio {
 	background-color: #f3f3f3;
-	max-height: 1595px;
+	height: 1595px;
+	padding: 0;
 }
 .portfolio__title {
 	font-family: 'Lato-Bold';
@@ -288,56 +289,50 @@ body{
 .portfolio__items {
 	padding: 134px 0 0 0;
 }
-.portfolio__items__1 {
-	margin: 0 0 15px 0;
-}
+.portfolio__items__1 {}
 .portfolio__items__1-1 {
 	display: inline-block;
 	width: 536px;
 	height: 363px;
 	background: #eaeaea;
-	margin:0 14px 0 14px;
+	margin:0 14px 15px 14px;
 }
 .portfolio__items__1-2 {
 	display: inline-block;
 	width: 536px;
 	height: 363px;
 	background: #eaeaea;
-	margin:0 14px 0 14px;
+	margin:0 14px 15px 14px;
 }
-.portfolio__items__2 {
-	margin: 0 0 15px 0;
-}
+.portfolio__items__2 {}
 .portfolio__items__2-1 {
 	display: inline-block;
 	width: 536px;
 	height: 363px;
 	background: #eaeaea;
-	margin:0 14px 0 14px;
+	margin:0 14px 15px 14px;
 }
 .portfolio__items__2-2 {
 	display: inline-block;
 	width: 536px;
 	height: 363px;
 	background: #eaeaea;
-	margin:0 14px 0 14px;
+	margin:0 14px 15px 14px;
 }
-.portfolio__items__3 {
-	margin: 0 0 15px 0;
-}
+.portfolio__items__3 {}
 .portfolio__items__3-1 {
 	display: inline-block;
 	width: 536px;
 	height: 363px;
 	background: #eaeaea;
-	margin:0 14px 0 14px;
+	margin:0 14px 15px 14px;
 }
 .portfolio__items__3-2 {
 	display: inline-block;
 	width: 536px;
 	height: 363px;
 	background: #eaeaea;
-	margin:0 14px 0 14px;
+	margin:0 14px 15px 14px;
 }
 .portfolio__button {
 	display: inline-block;
