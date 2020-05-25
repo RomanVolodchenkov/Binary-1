@@ -248,7 +248,7 @@ body{
 .portfolio {
 	background-color: #f3f3f3;
 	min-height: 1595px;
-	max-width: 1142px;
+	max-height: 100%;
 }
 .portfolio__title {
 	font-family: 'Lato-Bold';
@@ -295,14 +295,14 @@ body{
 	width: 536px;
 	height: 363px;
 	background: #eaeaea;
-	margin:0 14px 15px 14px;
+	margin: 8px;
 }
 .portfolio__items__1-2 {
 	display: inline-block;
 	width: 536px;
 	height: 363px;
 	background: #eaeaea;
-	margin:15px 14px 15px 14px;
+	margin: 8px;
 }
 .portfolio__items__2 {}
 .portfolio__items__2-1 {
@@ -310,14 +310,14 @@ body{
 	width: 536px;
 	height: 363px;
 	background: #eaeaea;
-	margin:15px 14px 15px 14px;
+	margin: 8px;
 }
 .portfolio__items__2-2 {
 	display: inline-block;
 	width: 536px;
 	height: 363px;
 	background: #eaeaea;
-	margin:15px 14px 15px 14px;
+	margin: 8px;
 }
 .portfolio__items__3 {}
 .portfolio__items__3-1 {
@@ -325,14 +325,14 @@ body{
 	width: 536px;
 	height: 363px;
 	background: #eaeaea;
-	margin:15px 14px 15px 14px;
+	margin: 8px;
 }
 .portfolio__items__3-2 {
 	display: inline-block;
 	width: 536px;
 	height: 363px;
 	background: #eaeaea;
-	margin:15px 14px 15px 14px;
+	margin: 8px;
 }
 .portfolio__button {
 	display: inline-block;
@@ -357,40 +357,141 @@ body{
 	letter-spacing: 1px;
 	color: #ffffff;
 	font-size: 30.36px;
-	padding: 95px 0 99px 0;
+	padding: 95px 0 79px 0;
 }
 .our-patners__links {}
-.our-patners__link__w {
+.our-patners__link__w, .our-patners__link__archiq, .our-patners__link__thomsoon, .our-patners__link__alex {
+	display: inline-block;
+	margin: 20px 55px 20px 55px;
+	vertical-align: middle;
+}
+.our-patners__link__w {}
+.our-patners__link__w img {}
+.our-patners__link__archiq {}
+.our-patners__link__thomsoon {}
+.our-patners__link__alex {}
+.our-patners__link__alex img {}
+/*================================== CONTACT ===============================================================*/
+.contact {}
+.contact__content {}
+.contact__title {
+	font-family: 'Lato-Bold';
+	text-transform: uppercase;
+	letter-spacing: 5.44px;
+	font-size: 34px;
+	padding: 27px 0 36px 0;
+}
+.contact__line {
+	margin: 7px auto 120px;
+	width: 81px;
+	border-bottom: 1px solid #000;
+}
+.contact__content2 {}
+.contact__content2__boxes {}
+.contact__boxes__box1{}
+.contact__boxes__box1,.contact__boxes__box2 {
+	display: inline-block;
+	vertical-align: top;
+	min-width: 384px;
+	min-height: 292px;
+	margin: 0 30px 0 30px;
+}
+.contact__box1__your-name {
+	display: inline-block;
+	margin: 0 56px 75px 0;
+}
+.contact__box1__your-name p, .contact__box1__your-e-mail p, .contact__box1__message p {
+	font-family: 'Lato-Bold';
+	text-transform: uppercase;
+	font-size: 14px;
+	text-align: left;
+	margin: 0 0 16px 0;
+}
+.contact__box1__your-name input, .contact__box1__your-e-mail input, .contact__box1__message textarea {
+	background: #f8f7f7;
+	border-top: 1px solid #000;
+	max-width: 162px;
+	font-size: 32px;
+}
+.contact__box1__your-e-mail {
 	display: inline-block;
 }
-.our-patners__link__w img {
-	padding-top: 5px;
+.contact__box1__your-e-mail p {}
+.contact__box1__your-e-mail input {}
+.contact__box1__message {}
+.contact__box1__message p {}
+.contact__box1__message textarea {
+	min-width: 384px;
+	min-height: 119px;
 }
-.our-patners__link__archiq {
+.contact__boxes__box2 {}
+.contact__box2__title p:first-child{
+	line-height: 13px;
+}
+.contact__box2__title p:nth-child(2){
+	line-height: 40px;
+}
+.contact__box2__title {
+	font-family: 'Lato-Light';
+	color: #000;
+	font-size: 14px;
+	letter-spacing: 0.25px;
+	text-align: left;
+}
+.contact__box2__name {
+	font-family: 'Lato-Bold';
+	color: #000;
+	line-height: 26px;
+	font-size: 14px;
+	text-align: left;
+	margin: 30px 0 0 0;
+}
+.contact__box2__icons {
+	margin: 17px 0 0 0;
+	text-align: left;
+}
+.contact__box2__f, .contact__box2__in{
 	display: inline-block;
-	margin: 0 112px 0 115px;
+	border: 2px solid #000;
+	border-radius: 50%;
+	height: 28px;
+	width: 28px;
 }
-.our-patners__link__thomsoon {
-	display: inline-block;
-	margin: 0 112px 0 0;
+.contact__box2__f {
+	margin: 0 9px 0 -1px;
+	padding: 5px 0px 0 7px;
 }
-.our-patners__link__alex {
-	display: inline-block;
+.contact__box2__in {
+	padding: 5.5px 0px 0 6px;
 }
-.our-patners__link__alex img {
-	padding-top: 10px;
+.cintact__bx2__mail {
+	margin: 15px 0 0 0;
 }
-
+.cintact__bx2__mail p {
+	font-family: 'Lato-Light';
+	font-size: 14px;
+}
+.cintact__bx2__mail span {
+	font-family: 'Lato-Bold';
+	font-size: 14px;
+}
+.send {
+	font-family: 'Lato-Bold';
+	color: #000;
+	font-size: 14px;
+	text-transform: uppercase;
+	margin: 40px 0 98px 0;
+	background: #ffff
+}
+/*================================== FOOTER ================================================================*/
 .footer {
 	background-color: #3c3c3c;
 	height: 274px;
 }
-.footer__logo img{
+.footer__logo img, .footer__links{
 	margin: 48px auto 0;
 }
-.footer__links {
-	margin: 40px auto 0;
-}
+.footer__links {}
 .footer__links a{
 	color: #a4a4a4;
 	font-family: 'Lato', sans-serif;
