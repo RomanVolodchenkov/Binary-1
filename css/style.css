@@ -349,9 +349,15 @@ body{
 }
 .our-partners {
 	background: url(../img/background/our-partners2.jpg);
-	height: 390px;
+	min-height: 390px;
 }
-
+.our-partners__box1, .our-partners__box2 {
+	display: inline-block;
+	text-align: center;
+	margin: 20px 0 50px 0;
+}
+.our-partners__box1 {}
+.our-partners__box2 {}
 .our-patners__title {
 	font-family: 'Lato-Light';
 	letter-spacing: 1px;
@@ -362,14 +368,16 @@ body{
 .our-patners__links {}
 .our-patners__link__w, .our-patners__link__archiq, .our-patners__link__thomsoon, .our-patners__link__alex {
 	display: inline-block;
-	margin: 20px 55px 20px 55px;
 	vertical-align: middle;
+	margin: 0 55px 0 55px;
 }
 .our-patners__link__w {}
 .our-patners__link__w img {}
 .our-patners__link__archiq {}
 .our-patners__link__thomsoon {}
-.our-patners__link__alex {}
+.our-patners__link__alex {
+	margin: 0 0 0 30px;
+}
 .our-patners__link__alex img {}
 /*================================== CONTACT ===============================================================*/
 .contact {}
