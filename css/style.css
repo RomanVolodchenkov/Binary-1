@@ -106,10 +106,7 @@ body{
 .about{
 	background-color: #ffff;
 }
-.about__wrap{
-	position: -webkit-sticky;
-	position: sticky;
-}
+.about__wrap{}
 .about__menu{
 	border-bottom: 1px solid #f2f2f2;
 	height: 37px;
@@ -120,9 +117,6 @@ body{
 }
 .about__menu__home{
 	color: #ada074;
-	:hover {
-		color: #522223;
-	}
 }
 .about__menu__about-us{
 	color: #3c3c3c;
