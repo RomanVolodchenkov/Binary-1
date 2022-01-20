@@ -106,21 +106,23 @@ body{
 .about{
 	background-color: #ffff;
 }
-.about__wrap{}
+.about__wrap{
+	position: -webkit-sticky;
+	position: sticky;
+}
 .about__menu{
 	border-bottom: 1px solid #f2f2f2;
 	height: 37px;
 	padding: 10px;
 	font-family: 'Lato-Bold';
 	text-transform: uppercase;
-	font-size: 15px;
-	}
-	:hover {
-		color: #522223;
-	}
+	font-size: 15px;	
 }
 .about__menu__home{
 	color: #ada074;
+	:hover {
+		color: #522223;
+	}
 }
 .about__menu__about-us{
 	color: #3c3c3c;
