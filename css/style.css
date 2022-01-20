@@ -114,6 +114,10 @@ body{
 	font-family: 'Lato-Bold';
 	text-transform: uppercase;
 	font-size: 15px;
+	}
+	:hover {
+		color: #522223;
+	}
 }
 .about__menu__home{
 	color: #ada074;
